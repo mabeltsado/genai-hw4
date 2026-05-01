@@ -68,3 +68,9 @@ The model's role is to parse the user's request, call the script, and interpret 
 - **Serving size is always an integer** — the script requires whole numbers for serving sizes and cannot handle inputs like "scale from 4 to 6.5 servings."
 - **No support for ingredient ranges** — recipes sometimes specify ranges like "1–2 tsp vanilla." The parser does not handle this format.
 - **Unit ladder caps at cup** — for very large batches (restaurant or commercial scale), the output stays in cups even when quarts or gallons would be more practical. The ladder was intentionally capped at cup for home cooking but could be made configurable.
+
+---
+
+## Demo Video
+
+[Watch the skill walkthrough on YouTube](https://youtu.be/XRztty6Npss)
